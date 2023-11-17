@@ -1,0 +1,112 @@
+   body{
+background-color: #bdbdbd;
+      }
+
+      #container {
+       
+        margin-top: 10%;
+        width: 30%;
+        margin-left:35%;
+       
+      }
+
+     
+
+      .box {
+        display: flex;
+        margin-top: 20px;
+      }
+
+      .disp {
+        text-align:right;
+        display: grid;
+        align-items: center;
+        width: 80%;
+        background-color: white;
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+
+.disp h3 {
+        margin-right: 25px; /* Add margin to the bottom of h3 */
+      }
+      .ac {
+         display: grid;
+         align-items: center;
+         font-size: 20px;
+        font-weight: bold;
+        background-color: #129688;
+        width: 20%;
+        text-align: center;
+        color: white;
+        
+      }
+
+      .ac h4 {
+           display: grid;
+         align-items: center;
+      }
+
+      .container {
+        display: flex;
+      }
+      .key {
+        padding-bottom: 10px;
+        width: 80%;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .num {
+        
+        display: flex;
+        justify-content: space-around;
+      }
+
+     .num1 {
+      display: grid;
+        /* border: 1px solid red; */
+        width: 20%;
+        text-align: center;
+        height:50px;
+        margin-top: 25px;
+        align-items: center;
+      }
+
+      .num1:hover{
+        background-color: #615a5c;
+      }
+
+      .key1 {
+        background-color: #757575;
+
+        width: 20%;
+        
+        text-align: center;
+      }
+
+      .sys {
+        /* border: 1px solid red; */
+        display: grid;
+         align-items: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        height:50px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 24px;
+       
+      }
+
+
+      .ac:hover{
+        background-color: aqua;
+       }
+
+       .sys:hover{
+        background-color: #0c0c0c;
+        color: white;
+       }
